@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--biblioteca Font Awesome de icones-->
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <main class="container"> <!--FORMULÁRIO DE LOGIN-->
+        <h2>LOGIN</h2>
+        <form action="">
+            <div class="inputes">
+                <input type="text" name="login" id="login" placeholder="E-mail ou CPF" aria-label="E-mail ou CPF">
+                <div class="underline"></div> </div>
+            <div class="inputes">
+                <input type="password" name="senha" id="senha" placeholder=" Insira a sua senha" aria-label="senha">
+                <div class="underline"></div> 
+            </div>
+<!--BOTÃO LOGIN-->
+            <input type="submit" value="Entrar" onclick="logar(); return false()"> 
+
+            <a href="#" class="esqueci">
+                Esqueceu a sua senha?
+            </a>
+           
+        </form>
+
+        <div class="cta">
+            <span> __________________________ </span>
+        </div>
+    <!--REDES SOCIAIS-->
+        <div class="redes">         
+            <a href="#" class="redes-sociais1">
+                <i class="fab fa-facebook-f"></i>
+                Continuar com Facebook
+                </a>
+
+            <a href="#" class="redes-sociais2">
+                    <i class="fab fa-google"></i>
+                    Continuar com Google
+            </a>
+        </div>          
+    </main>
+     <script src="script.js"></script>
+
+</body>
+</html>
