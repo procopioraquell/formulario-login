@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/91783f46-cfa4-4b9c-bf55-f7c25317b676)### FUNCIONALIDADES DO PROJETO
+### FUNCIONALIDADES DO PROJETO
 
 Neste projeto, implementei uma função de login que valida se o usuário inseriu corretamente um e-mail ou CPF, além de verificar se a senha atende aos requisitos de 6 dígitos numéricos.
 
